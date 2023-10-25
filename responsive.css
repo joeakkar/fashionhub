@@ -1,0 +1,188 @@
+/*top bond*/
+.bond{
+    display: flex;
+	background-color:#F6E3D8;
+	justify-content: center;
+    text-align: center;
+	align-items: center;
+	padding-bottom: 0%;
+	height: 6vh;	
+}
+/*top bond text*/
+.bond p{
+	font-family: "inter", sans-serif;
+    font-size: 1vw;
+}
+/*background set to the base layer*/
+.back-under {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.p-b {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+header {
+    height: 30vh;
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+	justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+nav {
+
+}
+.logo {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center; 
+    text-align: center;
+    padding: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    /* gap: 60px; */
+    list-style: none;
+
+}
+
+nav ul li a{
+    font-family: "Inter", sans-serif;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+nav {
+   padding: 30px;
+}
+.center{
+    align-items: center;
+}
+section .title{
+	background-color: #1416158f;
+	display: flex;
+	padding-left: 5vw;
+	padding-top: 2.7vw;
+	margin-top: 7vw;
+	margin-right: 55vw;
+	
+	height: 20vw;
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-size: 3vw;
+    line-height: 1.5em;
+	border-top-right-radius: 10vw;
+}
+section .home-button button{
+	margin-top: 2vw;
+	font-family: 'Inter',sans-serif;
+	background-color: #151313;
+	font-size: 1vw;
+	color: #FFFFFF;
+	border: none;
+	height: 4vw;
+	width: 10vw;
+
+}
+section .title h3{
+
+	color: #FFFFFF;
+}
+@media (min-width: 768px) {
+    .p-b{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .back-under{
+        display: none;
+    }
+
+}
+
+/*top nav*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04aa6d00;
+    color: white;
+  }
+  .topnav {
+    display: none;
+}
+
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .topnav {
+        display: block; /* Show the .topnav in the mobile version */
+    }
+    .logo {
+        display: none;
+    }
+    .bond{
+        display: none;
+    }
+
+    /* .title h3{
+        background-color: #1416158f;
+        display: flex;
+        padding-left: 1.2em;
+        padding-top: 1.2em;
+        margin-top: 1.5em;
+        margin-right: 55vw;
+        
+        height: 20vw;
+        font-family: 'Playfair Display';
+        font-style: bold;
+        font-size: 5vw;
+        line-height: 1.5em;
+        border-top-right-radius: 10vw;
+    } */
+}
+
+/*catalogue*/
